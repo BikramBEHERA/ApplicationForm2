@@ -1,0 +1,78 @@
+{
+  "posts": [
+    {
+      "username": "Bikram_Kumar_Behera",
+      "email": "bikrambeheranit@gmail.com",
+      "gender": "male",
+      "answer": "segae",
+      "secretQ": "birth",
+      "number": 123456,
+      "id": 1
+    },
+    {
+      "username": "Userwfqfaefawe",
+      "email": "q36q346@54",
+      "gender": "male",
+      "answer": "arta ",
+      "secretQ": "school",
+      "number": 252435,
+      "id": 2
+    },
+    {
+      "username": "rhtaERha",
+      "email": "fgz@fhjshj",
+      "gender": "male",
+      "answer": "ehaeh",
+      "secretQ": "school",
+      "number": 23543165,
+      "id": 3
+    },
+    {
+      "username": "Bikram_Kumar_Behera",
+      "email": "bikrambeheranit@gmail.com",
+      "gender": "male",
+      "answer": "wegtfqweg",
+      "secretQ": "name",
+      "number": 12334,
+      "id": 4
+    },
+    {
+      "username": "Bikram_Kumar_Behera",
+      "email": "bikrambeheranit@gmail.com",
+      "gender": "male",
+      "answer": "dhreh",
+      "secretQ": "school",
+      "number": 23524365,
+      "id": 5
+    },
+    {
+      "username": "Bikram_Kumar_Behera",
+      "email": "bikrambeheranit@gmail.com",
+      "gender": "male",
+      "answer": "sgesg",
+      "secretQ": "birth",
+      "number": 45235,
+      "id": 6
+    },
+    {
+      "username": "Bikram_Kumar_Behera",
+      "email": "bikrambeheranit@gmail.com",
+      "gender": "male",
+      "answer": "sDGSEg",
+      "secretQ": "name",
+      "number": 23523,
+      "password": "rhgargswe",
+      "id": 7
+    }
+  ],
+  "comments": [
+    {
+      "id": 1,
+      "body": "some comment",
+      "postId": 1
+    }
+  ],
+  "profile": {
+    "name": "typicode"
+  }
+}

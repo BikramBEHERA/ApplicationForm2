@@ -1,0 +1,40 @@
+<div class="container">
+    <div class="row">
+      <div class="col-xs-12 col-sm-10 col-md-8 col-sm-offset-1 col-md-offset-2">
+        <form [formGroup]="LogIn" (ngSubmit)="onLogin()">
+          <div class="form-group">
+            <label for="userID">UserID</label>
+            <input
+              type="text"
+              id="userID"
+              class="form-control"
+              formControlName = "userID">
+          </div>
+          <span *ngIf="!LogIn.get('userID')?.valid && LogIn.get('userID')?.touched" class="help-block">Enter valid UserID</span>
+          <div class="form-group">
+            <label for="password">Password</label>
+            <input
+              type="text"
+              id="password"
+              class="form-control"
+              formControlName = "password">
+              <span *ngIf="!LogIn.get('password')?.valid && LogIn.get('password')?.touched" class="help-block">Enter valid password</span>
+          </div>
+          <button class="btn btn-primary" type="submit">LogIn</button> |
+          <div class="container">
+            <div class="row">
+              <div>
+                <ul class="nav nav-tab">
+                  <li role="presentation"><a routerLink="/register">Register</a></li>
+                  <li role="presentation"><a routerLink="">forgot password</a></li>
+                </ul>
+              </div>
+              
+            </div>
+          </div>
+        </form>
+      </div>
+    </div>
+  </div>
+  <div>
+  </div>
